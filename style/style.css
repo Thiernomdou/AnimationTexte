@@ -1,0 +1,65 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+#accueil {
+    width: 100%;
+    height: 100%;
+    /*background: #333;
+    background: url(img/bureau.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background: #333 url(../img/nature.jpg) center / cover no-repeat;
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 250px;
+    padding-left: 240px;
+}
+
+#accueil .media-container {
+    display: flex;
+    margin-left: 240px;
+    margin-top: 40px;
+}
+#accueil .media-btn {
+    width: 50px;
+    height: 50px;
+    background: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+#accueil .icones {
+    width: 37px;
+}
+#accueil .btn {
+    margin-left: 240px;
+    background: crimson;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid #333;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+}
+#accueil .btn:hover {
+    background: #333;
+    color: #f1f1f1;
+}
